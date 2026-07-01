@@ -24,8 +24,8 @@ jobs:
 
     - name: Build Docker Image
       run: |
-        docker build -t tfsazdev/mywebappnew:${{ github.run_number }} .
+        docker build -t tfsazdev/MYwebappnew:${{ github.run_number }} .
 
     - name: Push Docker Image
       run: |
-        docker push tfsazdev/mywebappnew:${{ github.run_number }}
+        docker push tfsazdev/MYwebappnew:${{ github.run_number }}
